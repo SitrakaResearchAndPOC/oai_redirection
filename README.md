@@ -6,46 +6,4 @@ Have a look on the code :
 * https://icepng.github.io/2020/09/23/RRCConnectionRelease/
 
 
-PATCH FOR asn1_msg.c is :
---- asn1_msg_redir.c	2023-05-21 12:10:58.000000000 -0700
-+++ asn1_msg.c	2023-05-21 12:10:58.000000000 -0700
-@@ -4395,11 +4395,8 @@
- }
- 
- 
--/*Let's add some code by sitraka
--
--*/
--
--
-+// Let's add some code by sitraka : all ASN CODE IS IN CMAKE 
-+// FOR TAU REJECT AND ATTACH REJECT , HAVE A LOOK ON 17146_FULLTEXT.pdf
- 
- uint8_t do_RRCConnectionRelease(uint8_t                             Mod_id,
- 				uint8_t                            *buffer,
-@@ -4412,12 +4409,24 @@
-   dl_dcch_msg.message.present           = LTE_DL_DCCH_MessageType_PR_c1;
-   dl_dcch_msg.message.choice.c1.present = LTE_DL_DCCH_MessageType__c1_PR_rrcConnectionRelease;
-   rrcConnectionRelease                  = &dl_dcch_msg.message.choice.c1.choice.rrcConnectionRelease;
-+
-+//adding by sitraka
-+LTE_RedirectedCarrierInfo_t rInfo;
-+  // geran
-+  rInfo.present = LTE_RedirectedCarrierInfo_PR_geran;
-+  LTE_CarrierFreqsGERAN_t cfgt;
-+  cfgt.startingARFCN = 636;
-+  cfgt.bandIndicator = 0;
-+  cfgt.followingARFCNs.present = LTE_CarrierFreqsGERAN__followingARFCNs_PR_equallySpacedARFCNs;
-+  cfgt.followingARFCNs.choice.equallySpacedARFCNs.arfcn_Spacing = 1;
-+  cfgt.followingARFCNs.choice.equallySpacedARFCNs.numberOfFollowingARFCNs = 0;
-+ rInfo.choice.geran = cfgt;
-   // RRCConnectionRelease
-   rrcConnectionRelease->rrc_TransactionIdentifier = Transaction_id;
-   rrcConnectionRelease->criticalExtensions.present = LTE_RRCConnectionRelease__criticalExtensions_PR_c1;
-   rrcConnectionRelease->criticalExtensions.choice.c1.present =LTE_RRCConnectionRelease__criticalExtensions__c1_PR_rrcConnectionRelease_r8 ;
-   rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.releaseCause = LTE_ReleaseCause_other;
--  rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.redirectedCarrierInfo = NULL;
-+  rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.redirectedCarrierInfo = &rInfo; //changing by Sitraka
-   rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.idleModeMobilityControlInfo = NULL;
-   rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.nonCriticalExtension=CALLOC(1,
-       sizeof(*rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.nonCriticalExtension));
+PATCH FOR asn1_msg.c is : https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/asn1_msg_diff.txt
