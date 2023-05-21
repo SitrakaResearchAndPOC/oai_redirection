@@ -1,0 +1,196 @@
+    1  setxkbmap fr
+    2  apt-get updae
+    3  apt-get update
+    4  ls
+    5  apt-get install linux-image-3.19.0-61-lowlatency linux-headers-3.19.0-61-lowlatency
+    6  uname -r
+    7  apt-get install linux-image-lowlatency linux-headers-lowlatency
+    8  reboot
+    9  uname -r
+   10  setxkbmap fr
+   11  apt-get install git
+   12  ls
+   13  cd Desktop/
+   14  mkdir myoai
+   15  git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git
+   16  cd openairinterface5g/cmake_targets/build_oai 
+   17  cd openairinterface5g/cmake_targets/ 
+   18  ls
+   19  ./build_oai -I --eNB -x --install-system-files -w USRP
+   20  ls
+   21  ./build_oai -I --eNB -x --install-system-files -w USRP
+   22  find -name asn.c
+   23  find -name asn1_msg.c
+   24  cd ..
+   25  find -name asn1_msg.c
+   26  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   27  ls 
+   28  find -name asn1_msg.c
+   29  cp openair2/RRC/LTE/MESSAGES/asn1_msg.c openair2/RRC/LTE/MESSAGES/asn1_msg_old.c 
+   30  find -name asn1_msg.c
+   31  find -name asn1_msg*.c
+   32  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   33  cd cmake_targets/
+   34  ./build_oai -I --eNB -x --install-system-files -w USRP
+   35  cd ..
+   36  find -name asn1_msg*.c
+   37  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   38  cd cmake_targets/
+   39  ./build_oai -I --eNB -x --install-system-files -w USRP
+   40  cd ..
+   41  find -name asn1_msg*.c
+   42  cd openair2/RRC/LTE/MESSAGES/
+   43  ls
+   44  cd ..
+   45  ls
+   46  cd MESSAGES/
+   47  ls
+   48  cd asn1c/
+   49  ls
+   50  cd ASN1_files/
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd 00
+   55  cd ..
+   56  ls
+   57  gedit README.txt 
+   58  gedit asn1_patch 
+   59  ls
+   60  gedit asn1_msg.h 
+   61  ls
+   62  gedit README.txt 
+   63  ls
+   64  cd asn1c/
+   65  ls
+   66  cd ASN1_files/
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd ASN1_files/
+   71  gedit 36331-860.txt 
+   72  gedit EUTRA-RRC-Definitions-86.asn 
+   73  ls
+   74  gedit EUTRA-RRC-Definitions-20.asn 
+   75  gedit EUTRA-RRC-Definitions-a20.asn
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  ls
+   80  mousetweaks asn1_msg.c 
+   81  gedit asn1_msg.c 
+   82  gedit asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+   83  gedit asn1_msg.c 
+   84  cd ..
+   85  cd openairinterface5g/
+   86  cd cmake_targets/
+   87  ./build_oai -I --eNB -x --install-system-files -w USRP
+   88  cd ..
+   89  ls
+   90  find -name asn1_msg*.c
+   91  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   92  cd cmake_targets/
+   93  ./build_oai -I --eNB -x --install-system-files -w USRP
+   94  cd ..
+   95  cd openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   96  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+   97  cd cmake_targets/
+   98  ./build_oai -I --eNB -x --install-system-files -w USRP
+   99  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  100  cd ..
+  101  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  102  gedit openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  103  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  104  gedit openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  105  gedit openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  106  cd cmake_targets/
+  107  ./build_oai -I --eNB -x --install-system-files -w USRP
+  108  gedit openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  109  gedit ../openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  110  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  111  gedit ../openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  112  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  113  gedit ../openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  114  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  115  gedit ../openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  116  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  117  gedit ../openair2/RRC/LTE/MESSAGES/asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+  118  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  119  ./build_oai -I --eNB -x --install-system-files -w USRP
+  120  ./build_oai --help
+  121  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  122  cd ..
+  123  find -name rrc*
+  124  ls
+  125  cd cmake_targets/
+  126  gedit build_oai 
+  127  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  128  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  129  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  130  ls
+  131  gedit /home/oai/Desktop/openairinterface5g/cmake_targets/log/lte-softmodem.Rel14.txt
+  132  cd ..
+  133  find -name LTE_RRCConnectionRelease-r8-IEs.h
+  134* gedit cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RRCCon
+  135  find -name LTE_RedirectedCarrierInfo
+  136  find -name LTE_RedirectedCar*
+  137  find -name LTE_RedirectedCarrierInfo*
+  138  ls cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/
+  139  ls cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RRC*
+  140  ls cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo*
+  141  gedit cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.c
+  142  gedit cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h 
+  143  cd cmake_targets/
+  144  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  145  find -name cmake_targets/lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.c
+  146  find -name LTE_RedirectedCarrierInfo.c
+  147  find -name LTE_RedirectedCarrierInfo.h
+  148  gedit RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  149* gedit /RRC
+  150  ls
+  151* cd
+  152  cd cmake_targets/
+  153  find -name LTE_RedirectedCarrierInfo.h
+  154  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  155  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  156  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  157  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  158  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  159  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  160  ls
+  161  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  162  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  163  find -name LTE_CarrierFreqsGERAN
+  164  find -name LTE_CarrierFreqsGERAN*
+  165  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_CarrierFreqsGERAN.h
+  166  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  167  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  168  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  169  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_CarrierFreqsGERAN.h
+  170  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  171  gedit lte_build_oai/build/CMakeFiles/RRC_Rel14/LTE_RedirectedCarrierInfo.h
+  172  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  173  gedit /home/oai/Desktop/openairinterface5g/cmake_targets/log/lte-softmodem.Rel14.txt 
+  174  gedit /home/oai/Desktop/openairinterface5g/cmake_targets/log/protobuf_install_log.txt 
+  175  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  176  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  177  gedit  /home/oai/Desktop/openairinterface5g/cmake_targets/log/protobuf_install_log.txt 
+  178  gedit build_oai 
+  179  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  180  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  181  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  182  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  183  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  184  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  185  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  186  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  187  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  188  gedit ../openair2/RRC/LTE/MESSAGES/asn1_msg.c 
+  189  cd ..
+  190  ls
+  191  cd cmake_targets/
+  192  ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
+  193  cd ..
+  194  ls
+  195  history histo.txt
+  196  history > histo.txt

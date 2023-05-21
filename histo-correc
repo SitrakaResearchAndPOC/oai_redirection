@@ -1,0 +1,33 @@
+https://icepng.github.io/2020/09/23/RRCConnectionRelease/
+  1  setxkbmap fr
+    2  apt-get updae
+    3  apt-get update
+    4  ls
+    5  apt-get install linux-image-3.19.0-61-lowlatency linux-headers-3.19.0-61-lowlatency
+    6  uname -r
+    7  apt-get install linux-image-lowlatency linux-headers-lowlatency
+    8  reboot
+    9  uname -r
+   10  setxkbmap fr
+   11  apt-get install git
+   12  ls
+   13  cd Desktop/
+   14  mkdir myoai
+   15  git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git
+   16  cd openairinterface5g/cmake_targets/build_oai 
+   17  cd openairinterface5g/cmake_targets/ 
+   18  ls
+   19  ./build_oai -I --eNB -x --install-system-files -w USRP
+   20  ls
+   21  ./build_oai -I --eNB -x --install-system-files -w USRP
+
+
+   71  gedit 36331-860.txt 
+   72  gedit EUTRA-RRC-Definitions-86.asn 
+   74  gedit EUTRA-RRC-Definitions-20.asn 
+   75  gedit EUTRA-RRC-Definitions-a20.asn
+   82  gedit asn1c/ASN1_files/EUTRA-RRC-Definitions-a20.asn
+
+  
+
+
