@@ -9,4 +9,4 @@ Have a look on this tutorial for doing the OAI redirection :
 * https://icepng.github.io/2020/09/23/RRCConnectionRelease/
 
 
-PATCH FOR asn1_msg.c is : https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/asn1_msg_diff.txt
+PATCH is in the file asn1_msg.c is : https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/asn1_msg_diff.txt
