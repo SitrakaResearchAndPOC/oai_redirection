@@ -13,27 +13,27 @@ PATCH is in the file asn1_msg.c as : https://github.com/SitrakaResearchAndPOC/oa
 
 REJECTION PROCESS AT OAI-CN : 
 
-* all rejection message is definead at : 
+* all rejection message is definead at :  
 src/nas/api/network/as_message.h
 
 
-* For changing tracking_area_update_reject : (by default EMM_CAUSE_IMPLICITLY_DETACHED)
-mousepad src/nas/emm/TrackingAreaUpdate.c
-
-
-seach and change this code : 
-rc = emm_proc_tracking_area_update_reject (ue_id, EMM_CAUSE_IMPLICITLY_DETACHED);
+* For changing tracking_area_update_reject : (by default EMM_CAUSE_IMPLICITLY_DETACHED)  
+mousepad src/nas/emm/TrackingAreaUpdate.c  
+  
+  
+seach and change this code :   
+rc = emm_proc_tracking_area_update_reject (ue_id, EMM_CAUSE_IMPLICITLY_DETACHED);  
 
 No need to change if we don't want DoS
 
-* For changing service_attach_reject : 
+* For changing service_attach_reject :   
+mousepad src/nas/nas_proc.c   
+search DIAMETER_AUTHENTICATION_DATA_UNAVAILABLE (before s6a_error)  
 
-mousepad src/nas/nas_proc.c 
-search DIAMETER_AUTHENTICATION_DATA_UNAVAILABLE (before s6a_error)
-IF UE is not in database, it will send this error so change with code reject 
-all code is at : src/nas/api/network/as_message.h
-For example : NAS_CAUSE_NO_SUITABLE_CELLS_IN_TRACKING_AREA 
-
-
-This error code will be re-apply as attach_reject->emmcause on : 
- mousepad src/nas/emm/msg/AttachReject.c 
+IF UE is not in database, it will send this error so change with code reject  
+all code is at : src/nas/api/network/as_message.h  
+For example : NAS_CAUSE_NO_SUITABLE_CELLS_IN_TRACKING_AREA  
+  
+  
+This error code will be re-apply as attach_reject->emmcause on :  
+mousepad src/nas/emm/msg/AttachReject.c 
