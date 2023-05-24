@@ -21,7 +21,7 @@ src/nas/api/network/as_message.h
 mousepad src/nas/emm/TrackingAreaUpdate.c  
   
   
-seach and change this code :   
+* seach and change this code :   
 rc = emm_proc_tracking_area_update_reject (ue_id, EMM_CAUSE_IMPLICITLY_DETACHED);  
 
 NB : No need to change if we don't want DoS  
