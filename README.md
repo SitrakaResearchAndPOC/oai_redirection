@@ -1,10 +1,10 @@
 # Schematic description
 * Classic flow
-<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_classicflow.JPG" width="750px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_classicflow.JPG" width="450px" align="center">
 * IMSI-Catcher for non programmer without modification but with denied of service
-<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdos.JPG" width="750px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdos.JPG" width="450x" align="center">
 * IMSI-Catcher for programmer with modification but without denied of service
-<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcher.JPG" width="750px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcher.JPG" width="450px" align="center">
 * IMSI-Catcher for programmer with modification but with denied of service and redirection
 <img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdosredirection.JPG" width="750px" align="center">
 
