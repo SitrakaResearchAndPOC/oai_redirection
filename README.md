@@ -1,14 +1,21 @@
+# Schematic description
+* Classic flow
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_classicflow.JPG" width="750px" align="center">
+* IMSI-Catcher for non programmer without modification but with denied of service
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdos.JPG" width="750px" align="center">
+* IMSI-Catcher for programmer with modification but without denied of service
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcher.JPG" width="750px" align="center">
+* IMSI-Catcher for programmer with modification but with denied of service and redirection
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdosredirection.JPG" width="750px" align="center">
+
 # oai_redirection
-
-The changement will describe for making OAI IMSI-CATCHER or redirection
-
-Have a look on this tutorial for installation of OAI: 
+The changement will describe for making OAI IMSI-CATCHER or redirection </br>
+Have a look on this tutorial for installation of OAI: </br>
 * https://open-cells.com/index.php/2019/09/22/all-in-one-openairinterface/    
 
-Have a look on this tutorial for doing the OAI redirection : 
+Have a look on this tutorial for doing the OAI redirection : </br>
 * https://icepng.github.io/2020/09/23/RRCConnectionRelease/
-
-
+</br> </br>
 PATCH is in the file asn1_msg.c as : https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/asn1_msg_diff.txt
 
 # REJECTION PROCESS AT OAI-CN : 
