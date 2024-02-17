@@ -1,3 +1,5 @@
+# videos tutorials and conferences
+[conferences](https://www.youtube.com/watch?v=DEeOFE_DreU&t=157s&pp=ygUbaG93IHRvIGdldCBpbiBhcnJlc3RlZCArIDRH)
 # Schematic description
 * Classic flow
 <img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_classicflow.JPG" width="500px" align="center">
