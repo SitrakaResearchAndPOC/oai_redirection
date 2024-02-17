@@ -88,3 +88,9 @@ For building oai for redirection, use release 14
 ```
 ./build_oai -I --eNB -x --install-system-files -w USRP -r Rel14
 ```
+
+Redirection changement : 
+```
+rrcConnectionRelease->criticalExtensions.choice.c1.choice.rrcConnectionRelease_r8.redirectedCarrierInfo = &rInfo;
+```
+
