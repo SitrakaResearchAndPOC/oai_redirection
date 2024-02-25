@@ -18,7 +18,7 @@ Service attach reject without denied of service : 15 (No suitable cells in this 
 <img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcher.JPG" width="500px" align="center">
 
 * IMSI-Catcher for programmer with modification but with denied of service and redirection
-<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdosredirection.JPG" width="500px" align="center">
+<img src="https://github.com/SitrakaResearchAndPOC/oai_redirection/blob/main/schematic_imsicatcherdosredirection2.png" width="500px" align="center">
 
 # oai_redirection
 The changement will describe for making OAI IMSI-CATCHER or redirection </br>
